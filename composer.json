@@ -1,0 +1,16 @@
+{
+    "name": "digitalion/project-tools",
+    "description": "Collection of basic tools for common functionality in projects",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "illuminate/support": "7.x"
+    },
+    "autoload": {
+          "psr-4": {
+              "Digitalion\\ProjectTools\\": "src/"
+          }
+    }
+}
