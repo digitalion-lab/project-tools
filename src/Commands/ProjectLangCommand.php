@@ -1,13 +1,13 @@
 <?php
 
-namespace Digitalion\ProjectTools\Commands;
+namespace Digitalion\LaravelBaseProject\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 
-class MakeLangCommand extends Command
+class ProjectLangCommand extends Command
 {
-	protected $signature = 'make:lang {lang}';
+	protected $signature = 'project:lang {lang}';
 	protected $description = 'Publishing the Laravel translation file for the chosen language.';
 
 	/**

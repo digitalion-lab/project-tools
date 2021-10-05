@@ -1,16 +1,42 @@
 {
-    "name": "digitalion/project-tools",
+    "name": "digitalion/laravel-base-project",
     "description": "Collection of basic tools for common functionality in projects",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "dev",
     "prefer-stable": true,
+    "homepage": "https://github.com/digitalion-lab/laravel-base-project",
+    "keywords": [
+        "digitalion",
+        "laravel",
+        "artisan",
+        "make",
+        "commands",
+        "trait",
+        "class",
+        "helper"
+    ],
+    "authors": [
+        {
+            "name": "Digitalion",
+            "email": "dev@digitalion.it",
+            "homepage": "https://digitalion.it",
+            "role": "Developer"
+        }
+    ],
     "require": {
-        "illuminate/support": "7.x"
+        "illuminate/support": ">=6"
     },
     "autoload": {
           "psr-4": {
               "Digitalion\\ProjectTools\\": "src/"
           }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Digitalion\\ProjectTools\\ProjectToolsServiceProvider",
+                "Digitalion\\ProjectTools\\Providers\\ResponseServiceProvider"
+            ]
+        }
     }
 }

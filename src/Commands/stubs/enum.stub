@@ -1,8 +1,0 @@
-<?php
-
-namespace DummyNamespace;
-
-final class DummyClass
-{
-	const Key = 'Value';
-}
