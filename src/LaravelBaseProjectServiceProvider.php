@@ -6,7 +6,7 @@ use Digitalion\LaravelBaseProject\Commands\ProjectLangCommand;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 
-class ProjectToolsServiceProvider extends ServiceProvider
+class LaravelBaseProjectServiceProvider extends ServiceProvider
 {
 	/**
 	 * Register services.

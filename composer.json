@@ -28,14 +28,14 @@
     },
     "autoload": {
           "psr-4": {
-              "Digitalion\\ProjectTools\\": "src/"
+              "Digitalion\\LaravelBaseProject\\": "src/"
           }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Digitalion\\ProjectTools\\ProjectToolsServiceProvider",
-                "Digitalion\\ProjectTools\\Providers\\ResponseServiceProvider"
+                "Digitalion\\LaravelBaseProject\\LaravelBaseProjectServiceProvider",
+                "Digitalion\\LaravelBaseProject\\Providers\\ResponseServiceProvider"
             ]
         }
     }

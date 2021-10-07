@@ -22,6 +22,8 @@ class ProjectLangCommand extends Command
 		$source = __DIR__ . '/../../locales/' . $arg_lang;
 		$destination = resource_path('lang/' . $arg_lang);
 
-		File::copyDirectory($source, $destination);
+		if (file_exists($source) && !file_exists($destination)) {
+			File::copyDirectory($source, $destination);
+		}
 	}
 }
