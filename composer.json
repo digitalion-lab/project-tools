@@ -4,7 +4,7 @@
     "type": "library",
     "license": "MIT",
     "prefer-stable": true,
-    "homepage": "https://github.com/digitalion-lab/laravel-base-project",
+    "homepage": "https://github.com/digitalion/laravel-base-project",
     "keywords": [
         "digitalion",
         "laravel",
