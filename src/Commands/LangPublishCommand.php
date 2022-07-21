@@ -16,7 +16,7 @@ class LangPublishCommand extends Command
 		$major_version = intval($versions[0]);
 
 		$lang = strtolower($this->argument('lang'));
-		$abs_source = __DIR__ . '/../../locales/' . $lang;
+		$abs_source = __DIR__ . '/../../lang/' . $lang;
 		$abs_destination = ($major_version > 9) ? lang_path($lang) : resource_path('lang/' . $lang);
 
 		if (!File::exists($abs_source)) {

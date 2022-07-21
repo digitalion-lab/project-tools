@@ -16,7 +16,7 @@ class LaravelBaseProjectServiceProvider extends ServiceProvider
 		if ($this->app->runningInConsole()) {
 			// registering artisan commands
 			$this->commands([
-				ProjectLangCommand::class,
+				LangPublishCommand::class,
 			]);
 		}
 	}

@@ -1,4 +1,4 @@
-# ![][img-logo] Laravel Project Tools [![Power by][power-by]][link-digitalion]
+# ![][img-logo] Laravel Base Project Tools [![Power by][power-by]][link-digitalion]
 
 [![Packagist License][badge_license]](LICENSE.md)
 [![Packagist][badge_package]][link-packagist]
