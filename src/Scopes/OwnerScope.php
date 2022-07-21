@@ -17,9 +17,6 @@ class OwnerScope implements Scope
 	 */
 	public function apply(Builder $builder, Model $model)
 	{
-		$builder->with('users')
-			->whereHas('users', function (Builder $query) {
-				$query->where('user_id', auth()->id());
-			});
+		$builder->where('user_id', auth()->id());
 	}
 }

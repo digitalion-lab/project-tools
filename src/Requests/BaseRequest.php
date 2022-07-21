@@ -33,7 +33,7 @@ class BaseRequest extends FormRequest
 
 	public function attributes()
 	{
-		return trans('fields');
+		return trans('fields', []);
 	}
 
 	// public function validate()
